@@ -1,0 +1,26 @@
+{
+    "name": "andreishevchuk/header-accept-json",
+    "description": "The middleware wich set global accept header as application/json for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andrey shevchuk",
+            "email": "andrushik00931@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "support": {
+    "issues": "https://github.com/andreishevchuk/header-accept-json/issues"
+    },
+    "require": {
+        "php": ">=7.2",
+        "illuminate/http": "^5.8 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andreishevchuk\\HeaderAcceptJson": "src/"
+        }
+    }
+}
