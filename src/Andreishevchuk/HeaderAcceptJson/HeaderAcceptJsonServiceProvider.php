@@ -14,7 +14,7 @@ class HeaderAcceptJsonServiceProvider extends ServiceProvider
 	public function boot()
 	{
 	    $this->publishes([
-	        __DIR__.'/../../Middleware/headerAcceptJson.php' => app_path() . '/Http/Middleware/headerAcceptJson.php'
+	        __DIR__.'/../../Middleware/HeaderAcceptJson.php' => app_path() . '/Http/Middleware/HeaderAcceptJson.php'
 	    ], 'middleware');
 
 	}
