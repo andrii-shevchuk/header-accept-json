@@ -1,5 +1,5 @@
 # Laravel header accept application/json middleware
-The middleware wich set global accept header as application/json for Laravel.
+The middleware which set global accept header as application/json for Laravel.
 
 ## Install
 
